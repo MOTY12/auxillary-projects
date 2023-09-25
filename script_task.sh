@@ -43,7 +43,7 @@ echo "$CELSIUS degrees Celsius is $FAHRENHEIT degrees Fahrenheit"
 
 
 # Output the contents of a file in reverse.
-read -p "Enter a file name: " input
+read -p "Enter a Content: " input
 # Use the 'rev' command to reverse the string
 reversed=$(echo "$input" | rev)
 
